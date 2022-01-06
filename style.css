@@ -47,7 +47,7 @@ p{
     width: 50%;
     padding-left: 30%;
 }
-.year{
+.yellow-color{
     color: #FFAD5A;
 }
 .mission-sections{
@@ -98,10 +98,35 @@ p{
     margin-top: 0;
     margin-bottom: 0;
 }
-.background-image{
+.background-image-1{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
     max-width: 100%;
     height: auto;
+}
+.background-image-2{
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: #FF5959;
 }
