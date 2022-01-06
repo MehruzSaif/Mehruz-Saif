@@ -4,12 +4,14 @@ body{
 h1{
     font-size: 60px;
     color: rgb(51, 51, 51);
-    margin-top: 0;
+    margin-top: 100;
     margin-bottom: 0;
+    font-family: 'Yeseva One', cursive;
 }
 h2{
     font-size: 50px;
     color: rgb(51, 51, 51);
+    
 }
 .ms-2022{
     color: #FFAD5A;
@@ -50,4 +52,56 @@ p{
 }
 .mission-sections{
     text-align: center;
+}
+.mission-item-1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px #4F9DA6;
+    background-color: #a6bfc2;
+    border-radius: 20px;
+}
+.mission-item-2{
+    width: 40%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: rgb(189, 179, 179);
+    border-radius: 20px;
+}
+.mission-item-3{
+    width: 40%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px #dbc484;
+    background-color: #FFF4D6;
+    border-radius: 20px;
+}
+.mission-item-1 img{
+    max-width: 100%;
+    height: auto;
+}
+.mission-item-2 img{
+    max-width: 100%;
+    height: auto;
+}
+.mission-item-3 img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+.h2-self-dev{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.background-image{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    max-width: 100%;
+    height: auto;
 }
